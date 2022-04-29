@@ -1,0 +1,61 @@
+header .container{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+header .logo span{
+    color: #7D38DB;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li{
+    padding: 15px 10px;
+    text-transform: uppercase;
+}
+
+header nav ul li a{
+    transition: .3s ease-in color;
+}
+
+header nav ul li a:hover{
+    color: #7D38DB;
+}
+
+footer{
+    margin-top: auto;
+    padding: 15px 0;
+}
+
+footer .container{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer .container img{
+    width: 135px;
+    margin-right: 15px;
+}
+
+footer .patrocinador{
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
